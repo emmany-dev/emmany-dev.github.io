@@ -47,7 +47,7 @@ const callWeatherAPI = (inputValue)=>{
     .then(res=>res.json())
     .then(renderWeatherData)
     .catch(error=>{
-        const err = `Kasala don burst, this one na gbege, original gbege \n Technical details:${error}`
+        const err =    `Technical details:${error}`
         renderErrorMsg(err);
     })
 }

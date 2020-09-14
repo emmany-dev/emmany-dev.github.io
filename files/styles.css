@@ -9,7 +9,9 @@ body{
     font-family: cursive, Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
-
+p{
+    margin: 4%;
+}
 input{
     padding: 1.5% 1%;
     box-sizing: border-box;

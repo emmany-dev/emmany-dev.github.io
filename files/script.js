@@ -22,7 +22,7 @@ const renderWeatherData = data =>{
                     descElm.className = "desc";
                     docFrag.appendChild(descElm)
         const icon = data['weather'][0]['icon'];
-        const iconUrl =`http://openweathermap.org/img/wn/${icon}@2x.png`;
+        const iconUrl =`https://openweathermap.org/img/wn/${icon}@2x.png`;
         const iconElm = document.createElement('img');
                     iconElm.src = iconUrl;
                     iconElm.alt = description;
